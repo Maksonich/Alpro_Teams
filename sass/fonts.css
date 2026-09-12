@@ -1,0 +1,23 @@
+/* Example  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500&display=swap');
+
+
+@font-face{
+    font-family: "StudioSans" ;
+    src: url(../fonts/studio-sans-cufonfonts/StudioSans.otf);
+     src: url(../fonts/studio-sans-cufonfonts/StudioSansBold.otf);
+      src: url(../fonts/studio-sans-cufonfonts/StudioSansExtraBold.otf);
+       src: url(../fonts/studio-sans-cufonfonts/StudioSansExtraLight.otf);
+        src: url(../fonts/studio-sans-cufonfonts/StudioSansLight.otf);
+         src: url(../fonts/studio-sans-cufonfonts/StudioSansMedium.otf);
+}
+@font-face{
+    font-family: "CorsaGrotesk" ;
+    src: url(../fonts/font/CorsaGrotesk-Regular.woff);
+     src: url(../fonts/font/CorsaGrotesk-Thin.woff);
+}
+
+@font-face{
+    font-family: "tanseekModern" ;
+    src: url(../fonts/tanseek-modern-pro-arabic-medium_freefontdownload_org/tanseek-modern-pro-arabic-medium.ttf);
+}

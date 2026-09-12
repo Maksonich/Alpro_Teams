@@ -1,0 +1,293 @@
+/* SCSS Compiled */
+/***************************************************              GENERAL RESET STYLES             ***************************************************/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*:focus {
+  outline: none; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  border-style: none;
+  max-width: 100%; }
+
+form fieldset {
+  margin: 0;
+  padding: 0;
+  border: none; }
+
+input, textarea, select {
+  vertical-align: middle;
+  color: #000;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+input::-webkit-input-placeholder {
+  color: #000; }
+
+input:focus::-webkit-input-placeholder {
+  color: #000; }
+
+/*
+@media (min-width: 1921px){}
+@media (width: 1920px){}
+@media (min-width: 1440px) and (max-width: 1919px) {}
+@media (min-width: 1360px) and (max-width: 1439px) {}
+@media (min-width: 1280px) and (max-width: 1359px) {}
+@media (min-width: 1024px) and (max-width: 1279px) {}
+@media (min-width: 768px) and (max-width: 1023px) {}
+@media (min-width: 375px) and (max-width: 767px) {}
+@media (min-width: 320px) and (max-width: 374px) {}
+*/
+/*
+@media (max-width: 1919px) {}
+@media (max-width: 1439px) {}
+@media (max-width: 1279px) {}
+@media (max-width: 767px) {}
+*/
+#wrapper,
+main,
+#content,
+#sidebar,
+aside,
+section {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: auto; }
+
+.wrapper {
+  position: relative; }
+
+.region-map {
+  position: relative;
+  width: 100;
+  height: 0;
+  padding-bottom: 50%;
+  overflow: hidden;
+  margin: auto; }
+
+.region-map svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto; }
+
+.region-map__fill {
+  -webkit-transition: fill .25s ease-in-out;
+  -o-transition: fill .25s ease-in-out;
+  transition: fill .25s ease-in-out; }
+
+.responsible__Pustovit {
+  fill: #32a1e6; }
+
+.responsible__Maks {
+  fill: #32c0b9; }
+
+.responsible__Roman {
+  fill: #9a7bbe; }
+
+.responsible__Anna {
+  fill: #fd8d37; }
+
+.responsible__Andriy {
+  fill: #fbcc1d; }
+
+.responsible__Sergey {
+  fill: #8bcb53; }
+
+.responsible__TOT {
+  fill: #c9c7c8; }
+
+.circle_total {
+  fill: white; }
+
+.circle_frame {
+  stroke: white; }
+
+.object {
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s; }
+
+.object.active {
+  background: #293172;
+  fill: #293172; }
+
+.contacts_list {
+  position: absolute;
+  top: 60%; }
+  @media (max-width: 1060px) {
+    .contacts_list {
+      top: 90%;
+      position: relative;
+      display: block;
+      width: 400px;
+      margin: auto; } }
+  @media (max-width: 517px) {
+    .contacts_list {
+      top: 90%;
+      width: 100%;
+      margin: auto; } }
+  .contacts_list .list_Phone {
+    margin: 2px 0px;
+    padding: 5px 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 10px; }
+    @media (max-width: 942px) {
+      .contacts_list .list_Phone {
+        margin: 2px 0px;
+        padding: 2px 2px; } }
+  .contacts_list .Anna_zone, .contacts_list .Sergiy_zone, .contacts_list .Andriy1_zone, .contacts_list .Roman_zone, .contacts_list .Andriy_zone, .contacts_list .Maksym_zone {
+    border: 1px solid #fd8d37;
+    width: 430px; }
+    @media (max-width: 737px) {
+      .contacts_list .Anna_zone, .contacts_list .Sergiy_zone, .contacts_list .Andriy1_zone, .contacts_list .Roman_zone, .contacts_list .Andriy_zone, .contacts_list .Maksym_zone {
+        font-size: 12px;
+        width: 300px;
+        margin: auto; } }
+    @media (max-width: 517px) {
+      .contacts_list .Anna_zone, .contacts_list .Sergiy_zone, .contacts_list .Andriy1_zone, .contacts_list .Roman_zone, .contacts_list .Andriy_zone, .contacts_list .Maksym_zone {
+        top: 90%;
+        width: 100%;
+        margin: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0 20px;
+        margin: 2px 0; } }
+    .contacts_list .Anna_zone .user_style, .contacts_list .Sergiy_zone .user_style, .contacts_list .Andriy1_zone .user_style, .contacts_list .Roman_zone .user_style, .contacts_list .Andriy_zone .user_style, .contacts_list .Maksym_zone .user_style {
+      margin-right: 20px;
+      background-color: #fd8d37;
+      padding: 10px;
+      border-radius: 30px; }
+      @media (max-width: 737px) {
+        .contacts_list .Anna_zone .user_style, .contacts_list .Sergiy_zone .user_style, .contacts_list .Andriy1_zone .user_style, .contacts_list .Roman_zone .user_style, .contacts_list .Andriy_zone .user_style, .contacts_list .Maksym_zone .user_style {
+          padding: 5px; } }
+      @media (max-width: 517px) {
+        .contacts_list .Anna_zone .user_style, .contacts_list .Sergiy_zone .user_style, .contacts_list .Andriy1_zone .user_style, .contacts_list .Roman_zone .user_style, .contacts_list .Andriy_zone .user_style, .contacts_list .Maksym_zone .user_style {
+          margin: 0; } }
+    .contacts_list .Anna_zone h3, .contacts_list .Anna_zone a, .contacts_list .Sergiy_zone h3, .contacts_list .Sergiy_zone a, .contacts_list .Andriy1_zone h3, .contacts_list .Andriy1_zone a, .contacts_list .Roman_zone h3, .contacts_list .Roman_zone a, .contacts_list .Andriy_zone h3, .contacts_list .Andriy_zone a, .contacts_list .Maksym_zone h3, .contacts_list .Maksym_zone a {
+      color: #fd8d37; }
+    .contacts_list .Anna_zone .zone, .contacts_list .Sergiy_zone .zone, .contacts_list .Andriy1_zone .zone, .contacts_list .Roman_zone .zone, .contacts_list .Andriy_zone .zone, .contacts_list .Maksym_zone .zone {
+      width: 200px; }
+      @media (max-width: 737px) {
+        .contacts_list .Anna_zone .zone, .contacts_list .Sergiy_zone .zone, .contacts_list .Andriy1_zone .zone, .contacts_list .Roman_zone .zone, .contacts_list .Andriy_zone .zone, .contacts_list .Maksym_zone .zone {
+          width: 120px; } }
+  .contacts_list .Sergiy_zone {
+    border-color: #8bcb53; }
+    .contacts_list .Sergiy_zone .user_style {
+      background-color: #8bcb53; }
+    .contacts_list .Sergiy_zone h3, .contacts_list .Sergiy_zone a {
+      color: #8bcb53; }
+  .contacts_list .Andriy1_zone {
+    border-color: #32a1e6; }
+    .contacts_list .Andriy1_zone .user_style {
+      background-color: #32a1e6; }
+    .contacts_list .Andriy1_zone h3, .contacts_list .Andriy1_zone a {
+      color: #32a1e6; }
+  .contacts_list .Roman_zone {
+    border-color: #9a7bbe; }
+    .contacts_list .Roman_zone .user_style {
+      background-color: #9a7bbe; }
+    .contacts_list .Roman_zone h3, .contacts_list .Roman_zone a {
+      color: #9a7bbe; }
+  .contacts_list .Andriy_zone {
+    border-color: #fbcc1d; }
+    .contacts_list .Andriy_zone .user_style {
+      background-color: #fbcc1d; }
+    .contacts_list .Andriy_zone h3, .contacts_list .Andriy_zone a {
+      color: #fbcc1d; }
+  .contacts_list .Maksym_zone {
+    border-color: #32c0b9; }
+    .contacts_list .Maksym_zone .user_style {
+      background-color: #32c0b9; }
+    .contacts_list .Maksym_zone h3, .contacts_list .Maksym_zone a {
+      color: #32c0b9; }
+  .contacts_list .telephone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .contacts_list .telephone img {
+      margin-right: 10px; }
+  .contacts_list .telephone a img {
+    height: 27px; }

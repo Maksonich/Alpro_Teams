@@ -1,0 +1,144 @@
+.contacts_list{
+    position: absolute;
+    top: 60%;
+    @media (max-width: 1060px) {
+        top :90%;
+        position: relative;
+        display: block;
+        width: 400px;
+        margin: auto;
+        }
+          @media (max-width: 517px) {
+        top :90%;
+        width: 100%;
+        margin: auto;
+        }
+    .list_Phone{
+        margin: 2px 0px;
+        padding: 5px 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        border-radius: 10px;
+        
+       @media (max-width: 942px) {
+        margin: 2px 0px;
+        padding: 2px 2px;
+        }
+  
+    }
+     .Anna_zone, .Sergiy_zone, .Andriy1_zone, .Roman_zone, .Andriy_zone, .Maksym_zone{
+        border: 1px solid #fd8d37;
+        width: 430px;
+            @media (max-width: 737px) {
+                font-size: 12px;
+                width: 300px;
+                margin: auto;
+            }
+              @media (max-width: 517px) {
+                top :90%;
+                width: 100%;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 20px;
+                margin: 2px 0;
+                }
+          .user_style{
+            margin-right: 20px;
+            background-color: #fd8d37;
+            padding: 10px;
+            border-radius: 30px;
+           @media (max-width: 737px) {
+                padding: 5px;
+            }
+             @media (max-width: 517px) {
+                margin: 0;
+                }
+        }
+        h3 , a{
+            color: #fd8d37;
+        }
+       .zone{
+                width: 200px;
+                @media (max-width: 737px) {
+                      width: 120px;
+                 }
+            }
+        
+     }
+     
+     .Sergiy_zone{
+         border-color: #8bcb53;
+            .user_style{
+            background-color: #8bcb53;
+        }
+        h3 , a{
+            color: #8bcb53;
+        }
+        
+     }
+   
+     .Andriy1_zone{
+         border-color: #32a1e6;
+            .user_style{
+            background-color: #32a1e6;
+        }
+        h3 , a{
+            color: #32a1e6;
+        }
+     }
+     .Roman_zone{
+         border-color: #9a7bbe;
+           .user_style{
+            background-color: #9a7bbe;
+        }
+       h3 , a{
+            color: #9a7bbe;
+        }
+     }
+     .Andriy_zone{
+         border-color: #fbcc1d;
+           .user_style{
+            background-color: #fbcc1d;
+        }
+        h3 , a{
+            color: #fbcc1d;
+        }
+     }
+     .Maksym_zone{
+         border-color: #32c0b9;
+            .user_style{
+            background-color: #32c0b9;
+        }
+        h3 , a{
+            color: #32c0b9;
+        }
+     }
+    .telephone{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img{
+            margin-right: 10px;
+        }
+        
+    }
+//     .right_name{
+
+//   } 
+  .telephone{
+    a{
+        
+         img{
+            height: 27px;
+         }
+    }
+  }
+}
+
+ 
+
+

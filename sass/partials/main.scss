@@ -1,0 +1,71 @@
+.region-map {
+    position: relative;
+   width: 100;
+    height: 0;
+    padding-bottom: 50%;
+    overflow: hidden;
+    margin: auto;
+   
+}
+.region-map svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.region-map__fill {
+    -webkit-transition: fill .25s ease-in-out;
+    -o-transition: fill .25s ease-in-out;
+    transition: fill .25s ease-in-out;
+    // fill: rgb(187, 187, 100);
+    
+}
+    .responsible__Pustovit{
+        fill: #32a1e6;
+    }
+    .responsible__Maks{
+        fill: #32c0b9;
+    }
+    .responsible__Roman{
+         fill:#9a7bbe;
+    }
+    .responsible__Anna{
+        fill:#fd8d37;
+    }
+    .responsible__Andriy{
+        fill:#fbcc1d;
+    }
+    .responsible__Sergey{
+         fill:   #8bcb53;
+    }
+    .responsible__TOT{
+        fill:#c9c7c8;
+    }
+// .region-map__region a.is-fill .region-map__fill, .region-map__region a:hover .region-map__fill {
+//     // fill: #d11cb9;  
+    
+
+        
+// }
+
+
+.circle_total{
+    fill: white;
+}
+
+.circle_frame{
+   stroke: white;
+}
+
+.object {
+            
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+.object.active {
+            background: #293172;
+            fill: #293172;
+        }
