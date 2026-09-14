@@ -79,3 +79,15 @@ input:focus::-webkit-input-placeholder{color:#000;}
 @media (max-width: 1279px) {}
 @media (max-width: 767px) {}
 */
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+  text-align: left;
+
+}
